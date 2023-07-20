@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(20, 20, 0), rgb(5, 5, 24));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light {
+    width: 300px;
+    filter: drop-shadow(0 0 10px red);
+}
+
+.drop {
+    position: absolute;
+    height: 50px;
+    width: 1px;
+    background-color: #757575;
+    background-color: rgb(255, 113, 113);
+    transition: top 1.5s linear, left 1.5s linear;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
